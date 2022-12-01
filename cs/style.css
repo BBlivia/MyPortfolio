@@ -1,4 +1,5 @@
 /* Inspiration credit to benscott.dev ||  https://github.com/bscottnz/portfolio-site */
+/* Inspiration credit to AlexisInTech  */
 
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap);
@@ -284,20 +285,7 @@ button{
 @media all and (max-width: 1500px){.about{width:1100px}}
 @media all and (max-width: 1200px){.about{width:auto}}
 
-/* .about__heading:before{
-    position:absolute;
-    content:'';
-    border-bottom:18px solid rgba(252, 58, 74, 0.5);
-    width:16rem;
-    display:block;
-    margin:0 auto;
-    position:relative;
-    left:3.5rem;
-    top:6.3rem;
-    z-index:-1
-}
 
-@media all and (max-width: 770px){.about__heading:before{border-bottom:14px solid rgba(252, 58, 74, 0.5)}} */
 
 .about__content{
     display:flex;
@@ -498,173 +486,17 @@ button{
 
 /* ===================== PROJECTS ===================== */
 
-.projects{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-}
 
-/* .projects__heading:before{
-    position:absolute;
-    content:'';
-    border-bottom:18px solid rgba(252, 58, 74, 0.5);
-    width:22.5rem;
-    display:block;
-    margin:0 auto;
-    position:relative;
-    left:3.5rem;
-    top:6.3rem;
-    z-index:-1
-}
 
-@media all and (max-width: 770px){.projects__heading:before{border-bottom:14px solid rgba(252, 58, 74, 0.5)}} */
 
-.projects-row, .projects-bottomrow {
-    display:flex;
-    gap: 5rem;
-    padding: 3rem 22rem;
-    width:100%;
-}
 
-@media all and (max-width:1442px) {
-    .projects-row, .projects-bottomrow {
-        gap:4rem;
-        padding:2rem 15rem;
-    }
-}
-
-@media all and (max-width:1281px) {
-    .projects-row, .projects-bottomrow {
-        gap:4rem;
-        padding:2rem 13rem;
-    }
-}
-
-@media all and (max-width:1026px) {
-    .projects-row, .projects-bottomrow {
-        gap:4rem;
-        padding:2rem 15rem;
-    }
-}
-
-/* For mobile: Make projects stack (all four project boxes are stacked one column) */
-@media all and (max-width: 450px) {
-    .projects-row, .projects-bottomrow{
-        flex-direction:column;
-        gap:2rem;
-        padding:1rem 5rem;
-    }
-}
-
-.project-container{
-    position:relative;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    height: 60rem;
-    width: 50%;
-    background-color: rgba(32, 53, 82, 0.4);
-    border-radius: 10px;
-    transition: all 0.2s;
-    cursor: pointer;
-    padding: 40px 30px;
-    gap: 30px;
-    color: #ccd6f6
-}
-
-@media all and (max-width:1440px) {
-    .project-container {
-        height:50rem;
-        padding: 30px 20px;
-    }
-}
-
-@media all and (max-width:1280px) {
-    .project-container {
-        height:48rem;
-        padding: 30px 20px;
-    }
-}
-
-@media all and (max-width:1026px) {
-    .project-container {
-        height:45rem;
-        padding: 30px 20px;
-    }
-}
-
-@media all and (max-width:450px) {
-    .project-container {
-        width:100%;
-        height:36rem;
-        padding: 2rem 3rem;
-        gap:1rem;
-    }
-}
-
-@media all and (max-width:400px) {
-    .project-container {
-        height:30rem;
-    }
-}
-
-@media all and (max-width:399px) and (min-width:355px) {
-    .project-container {
-        height:33rem;
-    }
-}
-
-@media all and (max-width:350px) {
-    .project-container {
-        height:34rem;
-    }
-}
-
-@media all and (max-width:321px) {
-    .project-container {
-        height:32rem;
-    }
-}
 
 @media all and (max-width: 600px){.project{margin-bottom:10rem; flex-direction:column; justify-content:center; align-content:center; align-items:center}}
 
 .project h3 {margin-bottom:30px}
 
-/* Slideshow container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: 0;
-    /* overflow: hidden; */
-}
+
   
-/* Hide the images by default */
-.mySlides1, .mySlides2, .mySlides3 {
-    display: none;
-}
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 38%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
- 
-  @media all and (max-width: 450px) {
-    .prev, .next {
-        font-size: 10px;
-    }
-  }
   
   @media all and (max-width: 321px) {
     .prev, .next {
@@ -703,67 +535,10 @@ button{
     }
   }
   
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-
-  @media all and (max-width: 450px) {
-    .numbertext {font-size:6px}
-  }
+ 
   
-/* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    border:1px solid #64ffda;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
 
-  @media all and (max-width:450px) {
-    .dot {
-        display:none;
-    }
-  }
-  
-  .active, .dot:hover {
-    background-color:#233554
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
 
-/* #oneHundoHours .slideshow-container, #opensource .slideshow-container {
-    content: "";
-    background-color:rgb(26, 26, 26, 0.5);
-    width:100%;
-    height:63%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-#oneHundoHours .slideshow-container p, #opensource .slideshow-container p {font-size:3rem}
-
-@media all and (max-width:425px) {
-    #oneHundoHours .slideshow-container p, #opensource .slideshow-container p {font-size:1.8rem}
-} */
 
 .project__title{
     font-size:3.5rem
@@ -787,20 +562,7 @@ button{
 @media all and (max-width: 1026px){.project__live-2{font-size:1.3rem}}
 @media all and (max-width: 450px){.project__live-2{font-size:1rem}}
 
-/* .project__live-2:after{
-    position:absolute;
-    content:'';
-    height:2px;
-    background-color:rgba(252, 58, 74);
-    width:100%;
-    bottom:1px;
-    display:block;
-    transform-origin:bottom;
-    transition:all 0.25s;
-    z-index:-1
-}
 
-@media all and (max-width: 600px) {.project__live-2:after{display: none}} */
 
 .project__live-2:hover{color:#ccd6f6}
 
@@ -861,11 +623,14 @@ button{
     position:relative;
     font-size:5.5rem;
     font-weight:700;
-    margin: 6rem 0px;
-    z-index:9999
+    text-align: center;
+    z-index:9999;
+    margin-left: 43%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
-@media all and (max-width: 1200px){.section-heading{margin:4rem 0px}}
+@media all and (max-width: 1200px){.section-heading{margin:4rem 0px; text-align: center;}}
 @media all and (max-width: 1000px){.section-heading{margin-top:6rem}}
 @media all and (max-width:450px){.section-heading{font-size:4rem;margin:4rem 0px}}
 
@@ -882,27 +647,26 @@ button{
     justify-content:center;
     margin:10rem auto;
     color:#ccd6f6;
+    margin-top: 20%
 }
 
 @media all and (max-width: 700px){.contact{width:400px}}
+@media all and (max-width: 850px){.contact{margin-top:37rem}}
 @media all and (max-width: 470px){.contact{width:330px}}
-@media all and (max-width:600px){.contact{margin-top:30px}}
-@media all and (max-width: 450px){.contact{width:260px; margin:3rem auto 7rem auto}}
+@media all and (max-width:600px){.contact{margin-top:35.875rem}}
+@media all and (max-width: 450px){.contact{width:260px; margin:38rem auto 7rem auto}}
 @media all and (max-width: 260px){.contact{width: 100vw}}
 
-
-/* .contact__heading:before{
-    position:absolute;content:'';
-    border-bottom:18px solid rgba(252, 58, 74, 0.5);
-    width:37rem;
-    display:block;
-    margin:0 auto;
+.section-contact{
     position:relative;
-    left:2.5rem;
-    top:6.5rem;
-    z-index:-1
+    font-size:5.5rem;
+    font-weight:700;
+    text-align: center;
+    z-index:9999;
+    margin: 5%;
 }
-@media all and (max-width: 770px){.contact__heading:before{border-bottom:14px solid rgba(252, 58, 74, 0.5)}} */
+
+
 
 .contact__text{
     font-size:1.8rem;
@@ -919,122 +683,8 @@ button{
 .fa-envelope:hover{
     color:#64ffda
 }
-/* .contact__form{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center
-}
 
-.contact__form-name,.contact__form-email{
-    margin-bottom:6px;
-    padding:1rem;
-    height:4rem
-}
 
-.contact__form-message{
-    height:12rem;
-    padding:1rem
-}
-
-.contact__form-submit-2{
-    align-self:flex-start;
-    margin-top:0 !important
-}
-
-.contact__form-submit{
-    align-self:flex-start;
-    position:relative;
-    padding:0.6rem 1rem;
-    width:fit-content;
-    font-size:1.6rem;
-    text-transform:uppercase;
-    font-weight:700;
-    letter-spacing:3px;
-    z-index:9;
-    cursor:pointer
-}
-
-.contact__form-submit:hover{
-    color:#1a1a1a;
-    font-weight:700
-}
-
-.contact__form-submit:after{
-    position:absolute;
-    content:'';
-    border-bottom:2px solid #ff4d5a;
-    width:calc(100% + 2rem);
-    left:-14%;top:0.5rem;
-    display:block;
-    margin:0 auto;
-    position:relative;
-    transform-origin:bottom;
-    transition:all 0.2s;
-    z-index:-1
-}
-
-.contact__form-submit:hover:after{
-    transform:scaleY(17.5)
-}
-
-@media all and (max-width: 1500px){.contact__form-submit:hover:after{transform:scaleY(16.5)}}
-@media all and (max-width: 1200px){.contact__form-submit:hover:after{transform:scaleY(14)}}
-@media all and (max-width: 770px){.contact__form-submit:hover:after{transform:scaleY(12.5)}}
-
-.contact input,.contact textarea{
-    width:500px;
-    resize:none;
-    border:none;
-    color:inherit;
-    background-color:#282828;
-    font-size:1.6rem;
-    font-family:monserrat, sans-serif;
-    border-left:2px solid transparent;
-    border-radius:0
-}
-
-@media all and (max-width: 700px){.contact input,.contact textarea{width:400px}}
-@media all and (max-width: 470px){.contact input,.contact textarea{width:330px}}
-@media all and (max-width: 400px){.contact input,.contact textarea{width:260px}}
-
-.contact input:focus,.contact textarea:focus{outline:none}
-
-.contact input::placeholder,.contact textarea::placeholder{
-    color:rgba(250,250,250,0.6);
-    opacity:1
-}
-
-.contact input :-ms-input-placeholder,.contact textarea :-ms-input-placeholder{
-    color:rgba(250,250,250,0.6)
-}
-
-.contact input ::-ms-input-placeholder,.contact textarea ::-ms-input-placeholder{
-    color:rgba(250,250,250,0.6)
-}
-
-.contact__form-error-submit{
-    margin-top:1.5rem;
-    height:7rem;width:100%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center
-} */
-
-/* .form-error{
-    align-self:start;
-    font-size:1.6rem;
-    font-weight:500;
-    line-height:1.5
-}
-
-.form-error>*{
-    display:none
-}
-
-.input-error{
-    border-left:2px solid #ff4d5a !important
-} */
 
 /* ===================== FOOTER ===================== */
 
@@ -1062,11 +712,6 @@ button{
     
    
 }
-
-
-
-  
-    
 
 
 .socials a svg {
@@ -1135,5 +780,3 @@ button{
 }
 
 .return-home svg{width:100%}
-
-
