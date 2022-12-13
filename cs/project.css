@@ -73,3 +73,7 @@ border-radius: 15px;
 .title{
     font-size: larger;
 }
+
+.display-none{
+    display: none;
+}
